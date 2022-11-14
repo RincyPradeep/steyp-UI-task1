@@ -1,0 +1,37 @@
+#new-tabs{
+    width:100%;
+    height: 550px;
+    background-color: #A6FF34;
+    color:#0B0A0A;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#new-tabs div.content{
+    width:60%;
+    margin:0 auto;
+    text-align: center;
+}
+#new-tabs div.content h1{
+    font-size: 64px;
+    font-family: 'interbold';
+}
+#new-tabs div.content p{
+    font-family: 'intersemibold';
+    color: #60625d;
+    width: 70%;
+    margin:0 auto;
+    line-height: 1.8;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+#new-tabs div.content div.card{
+    width:400px;
+    height:150px;
+    margin:50px auto;
+    background-color: #fff;
+    border-radius: 30px;
+    position: relative;
+}
