@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 import './Header.css'
 
-import logo from '../../assets/images/logo-colour.svg'
+import logo from '../../assets/images/findtrend.svg'
 
 
 function Header() {

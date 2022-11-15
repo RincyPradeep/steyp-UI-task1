@@ -19,6 +19,11 @@ a{
   width:90%;
   margin:0 auto;
 }
+h1{
+  font-size: 78px;
+  font-family: 'interbold';
+  color: #0B0A0A;
+}
 
 @font-face {
   font-family: 'interbold';
