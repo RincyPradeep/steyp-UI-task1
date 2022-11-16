@@ -19,6 +19,9 @@ a{
   width:90%;
   margin:0 auto;
 }
+body{
+  font-family: 'interregular';
+}
 h1{
   font-size: 78px;
   font-family: 'interbold';

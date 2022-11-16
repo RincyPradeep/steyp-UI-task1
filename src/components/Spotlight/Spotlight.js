@@ -6,7 +6,10 @@ import './Spotlight.css'
 
 import fire from '../../assets/images/fire.svg'
 import arrowithtext from '../../assets/images/arrowithtext.svg'
-import twittersearchbar from '../../assets/images/twitter-search bar.svg'
+import twitter from '../../assets/images/twitter.svg'
+import pinterest from '../../assets/images/pintrest.svg'
+import facebook from '../../assets/images/facebook.svg'
+import dribble from '../../assets/images/dribble.svg'
 import SearchCards from '../SearchCards/SearchCards';
 
 
@@ -28,11 +31,10 @@ function Spotlight() {
         </div>
 
         <div className='bottom'>
-            {/* --------------------------------change link address------------------------------------------------ */}           
-            <SearchCards srcLink={twittersearchbar} />
-            <SearchCards srcLink={twittersearchbar} />
-            <SearchCards srcLink={twittersearchbar} />
-            <SearchCards srcLink={twittersearchbar} />          
+            <SearchCards img={twitter}  text="Cryptopunk - Search" />
+            <SearchCards img={pinterest} text="Popular design - Search" />
+            <SearchCards img={facebook} text="Popular design - Search" />
+            <SearchCards img={dribble} text="Elon musk - Search" />          
         </div>
 
     </section>

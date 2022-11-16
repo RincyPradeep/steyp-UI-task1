@@ -16,21 +16,20 @@
     text-align: center;
 }
 #new-tabs div.content h1{
-    /* font-size: 64px;
-    font-family: 'interbold'; */
     color:#0B0A0A;
 }
 #new-tabs div.content p{
-    font-family: 'intersemibold';
     color: #60625d;
     width: 70%;
     margin:0 auto;
     line-height: 1.8;
     font-size: 17px;
-    margin-bottom: 40px;
 }
 #new-tabs div.content div.card-container{
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #new-tabs div.content div.card-container div.card{
     width:400px;
@@ -38,10 +37,32 @@
     margin:50px auto;
     background-color: #fff;
     border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#new-tabs div.content div.card-container div.card div.card-left{
+#new-tabs div.content div.card-container div.card-left{
     position: absolute;
-    left:50px;
-    top:50px;
-    /* transform: scaleX(-1); */
+    left:10%;
+    top:90px;
+    width:100px;
+}
+#new-tabs div.content div.card-container div.card-left img.arrowtext{
+    transform: rotate(-38deg);
+}
+#new-tabs div.content div.card-container div.card-right{
+    position: absolute;
+    right:10%;
+    top:90px;
+    width:100px;
+
+}
+#new-tabs div.content div.card-container img.arrow{
+    width: 45px;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 45px;
+}
+#new-tabs div.content div.card-container img.card-img{
+    width: 250px;
 }

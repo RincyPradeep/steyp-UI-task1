@@ -17,9 +17,9 @@
     padding-top: 150px;
 }
 #spotlight div.top h1{
-    /* font-family: 'interbold'; */
+    font-family: 'interbold';
     color: #e8e8e8;
-    /* font-size: 78px; */
+    font-size: 78px;
     margin-bottom: 30px;
 }
 #spotlight div.top p{
@@ -71,9 +71,9 @@
     position: absolute;
     width: 280px;
 }
-#spotlight div.bottom div img{
+/* #spotlight div.bottom div img{
     width:100%;
-}
+} */
 #spotlight div.bottom div:first-child{
     left: 0;
     z-index: 4;

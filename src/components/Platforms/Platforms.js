@@ -5,6 +5,8 @@ import './Platforms.css'
 
 import { platform_data } from '../../assets/js/PlatformData'
 import post_one from '../../assets/images/linkedin-page1.jpg'
+import post_two from '../../assets/images/linkedin-page2.jpg'
+import RegisterButton from '../RegisterButton/RegisterButton'
 
 
 function Platforms() {
@@ -21,11 +23,18 @@ function Platforms() {
                     })
                 }
             </div>
-            <div className='linkedin_posts' >
+            <div className='linkedin-posts' >
+                <div>
+                    <img src={post_one} alt="post" />
+                </div>
+                <div>
+                    <img src={post_two} alt="post" />
+                </div>
                 <div>
                     <img src={post_one} alt="post" />
                 </div>
             </div>
+            <RegisterButton />
         </div>
     </section>
   )

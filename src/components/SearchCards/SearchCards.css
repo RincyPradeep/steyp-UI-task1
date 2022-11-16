@@ -1,0 +1,41 @@
+div.search-card{
+    width: 280px;
+    height: 70px;
+    background-color: #282827;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    box-shadow: 7px 7px 10px 0 rgb(0 0 0 / 80%);
+}
+div.search-card div.bg-green{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A6FF34;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+div.search-card img.logo{
+    width:30px;
+    height:30px;
+    margin-right: 10px;
+}
+div.search-card div.bg-green img{
+    margin-right: 0;
+}
+div.search-card span{
+    font-size: 20px;
+}
+div.search-card img.close-btn{
+    z-index: 10;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    padding: 29px 21.16px 29px 47.61px;
+    background-image: linear-gradient(270deg, #282827 57.65%, rgba(24, 24, 24, -3.4));
+}

@@ -1,0 +1,30 @@
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+#footer div.left{
+    width:200px;
+}
+#footer div.left img{
+    width: 100%;
+}
+#footer div.right{
+    
+}
+#footer div.right ul{
+    display: flex;
+    align-items: center;
+}
+#footer div.right ul li{
+    margin-right: 30px;
+    font-size: 18px;
+}
+#footer div.right ul li:last-child{
+    margin-right: 0;
+}
+#footer div.right ul li a{
+    font-size: 18px;
+}

@@ -1,0 +1,16 @@
+#register{
+    background-color: #A6FF34;
+    padding:100px;
+    
+}
+#register div.content{
+    width: 60%;
+    margin: 0 auto;
+}
+#register div.content h1{
+    text-align: center;
+    font-size: 72px;
+}
+#register div.content h1 span{
+    color: #66b305;
+}

@@ -1,6 +1,5 @@
 #platform{
     width:100%;
-    /* height:500px; */
     background-color: #F5F5F5;
     padding: 100px 0;
 }
@@ -28,8 +27,21 @@
     margin-right: 30px;
     margin-bottom: 30px;
 }
+#platform div.cards div.card img{
+    width:60px;
+    height:60px;
+}
 #platform div.linkedin-posts{
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+#platform div.linkedin-posts div{
+    width:70%;
+    margin:0 auto 20px;
+}
+#platform div.linkedin-posts div img{
+    width:100%;
 }

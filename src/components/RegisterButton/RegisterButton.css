@@ -1,0 +1,11 @@
+button.register-btn{
+    display: block;
+    margin: 30px auto 0;
+    background-color: #0B0A0A;
+    color: #E8E8E8;
+    padding: 16px 40px;
+    border-radius: 30px;
+    font-family: "intersemibold";
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -25,3 +25,7 @@
 #startup div.card-container div.card:nth-child(4n){
     margin-right: 0;
 }
+#startup div.card-container div.card img{
+    width: 120px;
+    height: 120px;
+}

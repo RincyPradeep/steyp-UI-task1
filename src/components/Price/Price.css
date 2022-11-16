@@ -1,0 +1,54 @@
+#price{
+    padding:100px 0;
+    background-color: #0B0A0A;
+}
+#price div.content{
+    width:70%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#price div.content div.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#price div.content div.top h3{
+    color:#E8E8E8;
+    font-size: 69px;
+}
+#price div.content div.top div.option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+#price div.content div.top div.option p{
+    color:#60625D;
+    font-size: 18px;
+}
+#price div.content div.top div.option p.active{
+    color: #E8E8E8;
+}
+#price div.content div.top div.option div.option-button{
+    background-color: #E8E8E8;
+    width: 90px;
+    height: 45px;
+    border-radius: 30px;
+    padding: 5px;
+    margin:0 30px;
+}
+#price div.content div.top div.option div.option-button div{
+    background-color: #A6FF34;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+#price div.content div.top div.option img{
+    width:90px;
+    margin-left: 30px;
+}
+#price div.bottom{
+    display: flex;
+}

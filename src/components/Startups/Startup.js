@@ -2,7 +2,6 @@ import React from 'react'
 
 import './Startup.css'
 
-// import google from '../../assets/images/google.svg'
 import StartupCards from '../StartupCards/StartupCards'
 import {data} from '../../assets/js/StartupsData'
 
