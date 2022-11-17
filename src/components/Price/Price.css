@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #price div.content div.top{
     display: flex;
@@ -58,4 +59,64 @@
 }
 #price div.bottom{
     display: flex;
+}
+
+
+@media all and (max-width:1280px){
+    #price div.content div.top h3 {
+        font-size: 42px;
+    }
+    #price div.content {
+        width: 90%;
+    }
+}
+
+@media all and (max-width:980px){
+    #price {
+        padding: 80px 0;
+    }
+    #price div.content div.top h3 {
+        font-size: 34px;
+    }
+    div.price-card h3 {
+        font-size: 24px;
+    }
+    div.price-card p {
+        color: #0B0A0A;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width:768px){
+    #price div.bottom {
+        flex-wrap: wrap;
+        margin-right: -30px;
+        justify-content: center;
+    }
+    div.price-card {
+        margin-bottom: 20px;
+        width: 255px;
+    }
+}
+
+@media all and (max-width:480px){
+    #price {
+        padding: 50px 0;
+    }
+    #price div.content div.top h3 {
+        font-size: 24px;
+    }
+    #price div.content div.top div.option div.card {
+        display: none;
+    }
+    #price div.content div.top div.option p {
+        font-size: 12px;
+    }
+    #price div.content div.top div.option div.option-button {
+        margin: 0 15px;
+    }
+    #price div.bottom {
+        margin-right: 0;
+    }
 }

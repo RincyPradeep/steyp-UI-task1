@@ -28,3 +28,28 @@
 #footer div.right ul li a{
     font-size: 18px;
 }
+
+
+@media all and (max-width:980px){
+    #footer div.right ul li a {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:640px){
+    #footer div.right ul li {
+        margin-right: 10px;
+    }
+    #footer div.left {
+        width: 120px;
+    }
+}
+
+@media all and (max-width:480px){
+    #footer div.left {
+        width: 100px;
+    }
+    #footer div.right ul li a {
+        font-size: 8px;
+    }
+}

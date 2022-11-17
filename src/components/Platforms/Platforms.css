@@ -45,3 +45,46 @@
 #platform div.linkedin-posts div img{
     width:100%;
 }
+
+
+@media all and (max-width:1280px){
+    #platform h1 {
+        font-size: 42px;
+    }
+}
+
+@media all and (max-width:980px){
+    #platform {
+        padding: 80px 0;
+    }
+    #platform h1 {
+        font-size: 34px;
+    }
+    #platform div.cards div.card {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media all and (max-width:768px){
+    #platform h1 {
+        font-size: 24px;
+    }
+    #platform div.linkedin-posts div {
+        width: 80%;
+    }
+}
+
+@media all and (max-width:480px){
+    #platform {
+        padding: 50px 0;
+    }
+    #platform h1 {
+        font-size: 18px;
+    }
+    #platform div.cards div.card {
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+    } 
+}

@@ -13,7 +13,7 @@ function PriceCard({price,active}) {
         <p>Vivamus sed libero ornare</p>
         <hr></hr>
         <h2><span>$ {price} </span>  /month</h2>
-        <div className='bottom'>
+        <div className='card-bottom'>
             <div>
                 <p>
                     <img src={tickIcon} alt='tick' />

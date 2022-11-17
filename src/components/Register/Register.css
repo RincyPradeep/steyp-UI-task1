@@ -14,3 +14,43 @@
 #register div.content h1 span{
     color: #66b305;
 }
+
+
+@media all and (max-width:1280px){
+    #register div.content h1 {
+        font-size: 42px;
+    }
+}
+
+@media all and (max-width:980px){
+    #register {
+        padding: 80px;
+    }
+    #register div.content {
+        width: 80%;
+    }
+}
+
+@media all and (max-width:768px){
+    #register div.content {
+        width: 90%;
+    }
+}
+
+@media all and (max-width:640px){
+    #register {
+        padding: 80px 0;
+    }
+    #register div.content h1 {
+        font-size: 32px;
+    }    
+}
+
+@media all and (max-width:480px){
+    #register {
+        padding: 50px 0;
+    }
+    #register div.content h1 {
+        font-size: 24px;
+    }
+}

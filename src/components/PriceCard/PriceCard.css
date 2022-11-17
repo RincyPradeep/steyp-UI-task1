@@ -8,9 +8,6 @@ div.price-card{
     display: flex;
     flex-direction: column;
 }
-div.price-card:last-child{
-    margin-right: 0;
-}
 div.active{
     background-color: #A6FF34;
 }
@@ -33,7 +30,7 @@ div.price-card h2 span{
     font-size: 56px;
     color: #0B0A0A;
 }
-div.price-card div.bottom{
+div.price-card div.card-bottom{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -65,4 +62,28 @@ div.price-card button.green-btn{
 div.price-card button.black-btn{
     background-color: #0B0A0A;
     color: #fff;
+}
+
+
+@media all and (max-width:980px){
+    div.price-card h3 {
+        font-size: 24px;
+    }
+    div.price-card p {
+        color: #0B0A0A;
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    div.price-card h2{
+        font-size: 16px;
+    }
+    div.price-card h2 span {
+        font-size: 42px;
+    }
+}
+
+@media all and (max-width:640px){
+    div.price-card{
+        margin-right: 0;
+    }
 }

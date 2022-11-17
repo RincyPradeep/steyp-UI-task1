@@ -13,3 +13,16 @@ img.left-arrow{
 .white{
     filter: brightness(0) invert(1); 
 }
+
+
+@media all and (max-width:640px){
+    p.arrow-text {
+        font-size: 12px;
+    }
+    #new-tabs div.content div.card-container div.card-left {
+        width: 88px;
+    }
+    #new-tabs div.content div.card-container div.card-right {
+        width: 88px;
+    }
+}

@@ -39,3 +39,16 @@ div.search-card img.close-btn{
     padding: 29px 21.16px 29px 47.61px;
     background-image: linear-gradient(270deg, #282827 57.65%, rgba(24, 24, 24, -3.4));
 }
+
+
+@media all and (max-width:980px){
+    div.search-card span {
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width:640px){
+    div.search-card {
+        width: 200px;
+    }
+}

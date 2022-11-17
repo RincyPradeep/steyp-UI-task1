@@ -70,9 +70,6 @@
     position: absolute;
     width: 280px;
 }
-/* #spotlight div.bottom div img{
-    width:100%;
-} */
 #spotlight div.bottom div:first-child{
     left: 0;
     z-index: 4;
@@ -94,4 +91,126 @@
     top: 0;
     transform: rotate(4deg);
     z-index: 1;
+}
+
+
+@media all and (max-width:1280px){
+    #spotlight div.top h1 {
+        font-size: 60px;
+    }
+    #spotlight div.top p {
+        font-size: 14px;
+    }
+    #spotlight div.top div.start-button div.arrow {
+        right: 66px;
+    }
+    #spotlight div.bottom div {
+        width: 222px;
+    }
+    div.search-card span {
+        font-size: 12px;
+    }
+    #spotlight div.bottom div:nth-child(2) {
+        left: 172px;
+        top: 15px;
+    }
+    #spotlight div.bottom div:nth-child(3) {
+        left: 335px;
+        top: -43px;
+    }
+    #spotlight div.bottom div:last-child {
+        right: 0;
+        top: 24px;
+    }
+}
+
+@media all and (max-width:980px){
+    #spotlight div.top {
+        width: 70%;
+    }
+    #spotlight div.top h1 {
+        font-size: 46px;
+    }
+    #spotlight div.top p {
+        width: 100%;
+    }
+    #spotlight div.bottom div {
+        width: 200px;
+    }
+    #spotlight div.bottom div:nth-child(2) {
+        left: 105px;
+    }
+    #spotlight div.bottom div:nth-child(3) {
+        left: 237px;
+    }
+}
+
+@media all and (max-width:768px){
+    #spotlight div.top {
+        width: 90%;
+    }
+    #spotlight div.bottom {
+        width: 90%;
+    }
+}
+
+@media all and (max-width:640px){
+    #spotlight div.top h1 {
+        font-size: 37px;
+    }
+    #spotlight div.top div.start-button a.button {
+        width: 180px;
+        padding: 12px 21px;
+    }
+    #spotlight div.top div.start-button div.arrow {
+        right: 26px;
+    }
+    #spotlight div.top div.start-button div.arrow {
+        width: 80px;
+    }
+    #spotlight div.bottom div:last-child {
+        top: 85px;
+    }
+}
+
+@media all and (max-width:480px){
+    #spotlight div.top h1 {
+        font-size: 28px;
+    }
+    #spotlight div.top p {
+        font-size: 12px;
+    }
+    #spotlight div.top div.start-button a.button {
+        width: 165px;
+        padding: 10px -8px;
+    }
+    #spotlight div.top div.start-button a.button {
+        font-size: 14px;
+    }
+    #spotlight div.top div.start-button div.arrow {
+        width: 58px;
+    }
+    #spotlight div.top div.start-button div.arrow {
+        right: 0px;
+    }
+    #spotlight div.bottom div:first-child {
+        left: 10px;
+        transform: none;
+    }
+    #spotlight div.bottom div:nth-child(2) {
+        left: 25px;
+    }
+    #spotlight div.bottom div:nth-child(3) {
+        left: 40px;
+        top: 73px;
+        transform: none;
+    }
+    #spotlight div.bottom div:last-child {
+        top: 132px;
+        left: 50px;
+        transform: none;
+    }
+    #spotlight div.bottom {
+        margin: 130px auto 0;
+    }
 }

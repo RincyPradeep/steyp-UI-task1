@@ -9,3 +9,10 @@ button.register-btn{
     font-size: 20px;
     cursor: pointer;
 }
+
+@media all and (max-width:768px){
+    button.register-btn {
+        padding: 10px 30px;
+        font-size: 18px;
+    }
+}
