@@ -16,7 +16,7 @@
 }
 #price div.content div.top h3{
     color:#E8E8E8;
-    font-size: 69px;
+    font-size: 60px;
 }
 #price div.content div.top div.option{
     display: flex;
@@ -45,9 +45,16 @@
     width: 35px;
     border-radius: 50%;
 }
-#price div.content div.top div.option img{
-    width:90px;
-    margin-left: 30px;
+#price div.content div.top div.option div.card{
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(22deg);
+}
+#price div.content div.top div.option div.card p{
+    font-size: 14px;
+    text-align: center;
 }
 #price div.bottom{
     display: flex;

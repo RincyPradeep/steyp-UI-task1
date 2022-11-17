@@ -18,15 +18,15 @@ div.price-card h3{
     font-size: 34px;
 }
 div.price-card p{
-    color: #60625D;
+    color: #0B0A0A;
     margin: 10px 0;
-    font-size: 18px;
+    font-size: 16px;
 }
 div.price-card hr{
     margin: 15px 0;
 }
 div.price-card h2{
-    color: #60625D;
+    color: #0B0A0A;
     margin-bottom: 20px;
 }
 div.price-card h2 span{

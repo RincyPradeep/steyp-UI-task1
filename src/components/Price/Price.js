@@ -3,7 +3,7 @@ import PriceCard from '../PriceCard/PriceCard'
 
 import './Price.css'
 
-import arrow from '../../assets/images/arrowithtext.svg'
+import ArrowWithText from '../ArrowWithText/ArrowWithText'
 
 
 function Price() {
@@ -18,7 +18,9 @@ function Price() {
                         <div></div>
                     </div>
                     <p>Maecenasi</p>
-                    <img src={arrow} alt="arrow" />
+                    <div className='card'>
+                        <ArrowWithText text='You just start from here' white />
+                    </div>
                 </div>
             </div>
             <div className='bottom'>

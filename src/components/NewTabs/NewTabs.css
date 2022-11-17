@@ -1,6 +1,5 @@
 #new-tabs{
     width:100%;
-    height: 550px;
     background-color: #A6FF34;
     color:#0B0A0A;
     padding: 100px 0;
@@ -8,7 +7,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 732px;
+    margin-top: 780px;
 }
 #new-tabs div.content{
     width:60%;
@@ -17,13 +16,14 @@
 }
 #new-tabs div.content h1{
     color:#0B0A0A;
+    font-size: 70px;
 }
-#new-tabs div.content p{
+#new-tabs div.content p.description{
     color: #60625d;
     width: 70%;
     margin:0 auto;
     line-height: 1.8;
-    font-size: 17px;
+    font-size: 16px;
 }
 #new-tabs div.content div.card-container{
     position: relative;
@@ -44,25 +44,26 @@
 #new-tabs div.content div.card-container div.card-left{
     position: absolute;
     left:10%;
-    top:90px;
-    width:100px;
+    top:100px;
+    width:110px;
+    transform: rotate(-32deg);
 }
-#new-tabs div.content div.card-container div.card-left img.arrowtext{
+/* #new-tabs div.content div.card-container div.card-left img.arrowtext{
     transform: rotate(-38deg);
-}
+} */
 #new-tabs div.content div.card-container div.card-right{
     position: absolute;
     right:10%;
-    top:90px;
-    width:100px;
-
+    top:100px;
+    width:110px;
+    transform: rotate(32deg);
 }
-#new-tabs div.content div.card-container img.arrow{
+/* #new-tabs div.content div.card-container img.arrow{
     width: 45px;
     transform: scaleX(-1);
     position: absolute;
     top: 45px;
-}
-#new-tabs div.content div.card-container img.card-img{
+} */
+/* #new-tabs div.content div.card-container img.card-img{
     width: 250px;
-}
+} */

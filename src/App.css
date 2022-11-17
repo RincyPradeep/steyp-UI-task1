@@ -1,9 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  /* appearance: none; */
   text-decoration: none;
-  /* color: #222; */
   box-sizing: border-box;
 }
 ul,
@@ -27,22 +25,36 @@ h1{
   font-family: 'interbold';
   color: #0B0A0A;
 }
+h2{
+  font-size: 24px;
+  font-family: 'interbold';
+}
+h3{
+  font-size: 20px;
+  font-family: 'interbold';
+}
 
 @font-face {
   font-family: 'interbold';
-  src: url('./assets//fonts/Inter-Bold.ttf') format('ttf');
+  src: url('./assets//fonts/Inter-Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'interregular';
-  src: url('./assets//fonts/Inter-Regular.ttf') format('ttf');
+  src: url('./assets//fonts/Inter-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'intersemibold';
-  src: url('./assets//fonts/Inter-SemiBold.ttf') format('ttf');
+  src: url('./assets//fonts/Inter-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'marheyregular';
+  src: url('./assets//fonts/Marhey-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
